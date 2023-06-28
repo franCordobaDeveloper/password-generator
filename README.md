@@ -11,7 +11,7 @@ Aplicación de consola para generar contraseñas
 | ----------------------- | ------------------------------------------ | -----------------------------|
 | `-l`                    | --length                          | Largo de la contraseño por defecto es 8 |  |
 | `-s`                    | --save                            | Guarda la contraseña en un archivo password.txt   | |
-| `nn`                    | --no-numbers                      | Proporciona una contraseña aleatoria sin numeros | |
-| `ns`                    | --no-symbols                      | Proporciona una contraseña aleatoria sin simbolos | |
+| `-nn`                    | --no-numbers                      | Proporciona una contraseña aleatoria sin numeros | |
+| `-ns`                    | --no-symbols                      | Proporciona una contraseña aleatoria sin simbolos | |
 | `-h`                    | --help                            | Proporciona la ayuda para las opciones                 | |
 | `-v`                    |  --version                        | Proporciona la version|
