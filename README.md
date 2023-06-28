@@ -7,10 +7,11 @@ Aplicación de consola para generar contraseñas
 3. Correr el archivo `node index (opciones)`
 
 ## opciones
-| Comando                 | Descripción                                |
-| ----------------------- | ------------------------------------------ |
-| `git init`              | Inicializa un repositorio Git               |
-| `git add <archivo>`     | Agrega un archivo al área de preparación    |
-| `git commit -m "Mensaje"` | Realiza un commit con un mensaje específico |
-| `npm install`           | Instala las dependencias de un proyecto Node.js |
-| `python script.py`      | Ejecuta un script de Python                 |
+| Short                 | Long                               | Descripción                 |
+| ----------------------- | ------------------------------------------ | -----------------------------|
+| `-l`                    | --length                          | Largo de la contraseño por defecto es 8 |  |
+| `-s`                    | --save                            | Guarda la contraseña en un archivo password.txt   | |
+| `nn`                    | --no-numbers                      | Proporciona una contraseña aleatoria sin numeros | |
+| `ns`                    | --no-symbols                      | Proporciona una contraseña sin simbolos | |
+| `-h`                    | --help                            | Proporciona la ayuda para las opciones                 | |
+| `-v`                    |  --version                        | Proporciona la version|
